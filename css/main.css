@@ -1,0 +1,99 @@
+a {
+	text-decoration: none;
+	color: rgb(83, 88, 95);
+}
+header {
+	padding: 30px 0;
+}
+nav ul {
+	list-style-type: none;
+	padding: 30px 0;
+}
+nav li {
+	display: inline;
+	padding: 0 50px;
+}
+section {
+	background-image: url("../img/textura_2.jpg");
+	background-repeat: repeat;
+}
+/*---------- SECCION STUDIO ----------*/
+#studio {
+	background-image: url("../img/dance_1.jpg");
+	background-size: 100%;
+}
+.std {
+	padding: 70px 150px 75px;
+}
+h2 {
+	font-size: 60px;
+	font-family: Latolight;
+}
+#studio p {
+	margin: 20px 0 35px;
+}
+.insc a {
+	padding: 10px 30px 15px;
+	background: #041021;
+}
+/*---------- SECCION OFERTA -----------*/
+#oferta {
+	padding: 60px 0 80px;
+}
+.deco1 {
+	width: 150px;
+	margin-left: 220px;
+}
+.oferta {
+	padding: 20px 80px;
+	background: #061E40;
+	border-radius: 4px;
+}
+.julliart {
+	font-size: 22px;
+}
+/*---------- SECCION INSTRUCTORES ----------*/
+#instructores {
+	border-bottom: 2px solid #192951;
+	border-top: 2px solid #192951;
+}
+.cuatro {
+	background-image: url("../img/instructor_4.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 150px;
+}
+.nueve {
+	background-image: url("../img/profesor_9.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 150px;
+}
+.instructores {
+	font-size: 20px;
+	padding: 20px 150px;
+	background: #061E40;
+	float: right;
+	margin-right: 375px;
+	margin-top: -64px;
+}
+h3 {
+	font-size: 40px;
+	padding: 100px 0;
+}
+/*---------- SECCION VISITANOS ----------*/
+#visitanos {
+	padding: 100px 0;
+	background: #061E40;
+}
+.txt {
+	padding-left: 80px;
+}
+.visit {
+	text-align: justify;
+}
+.mapa {
+	width: 500px;
+	float: right;
+	margin-right: 100px;
+}

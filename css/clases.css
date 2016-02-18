@@ -1,0 +1,40 @@
+.caja {
+	width: 280px;
+	padding: 20px 20px;
+	background: black;
+	opacity: 0.7;
+	margin: 160px 20px;
+}
+h5 {
+	padding-bottom: 20px;
+}
+.img {
+	background-size: 100%;
+	width: 350px;
+	margin: 20px;
+}
+.ballet {
+	background-image: url("../img/dance_12.jpg");
+}
+.moderm {
+	background-image: url("../img/breakdance.jpg");
+	background-position: 0 -30px;
+}
+.jazz {
+	background-image: url("../img/lirical-jazz.jpg");
+	background-position: 0 -35px;
+}
+.arabic {
+	background-image: url("../img/arabe.jpg");
+	background-position: 0 -60px;
+}
+.kids {
+	background-image: url("../img/little.jpg");
+	background-position: 0 -55px;
+}
+.yoga {
+	background-image: url("../img/yoga.jpg");
+}
+.clases {
+	padding: 20px 45px;
+}

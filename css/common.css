@@ -1,0 +1,77 @@
+/*---------- HEADER ----------*/
+a {
+	text-decoration: none;
+	color: rgb(83, 88, 95);
+}
+header {
+	padding: 30px 0;
+}
+nav ul {
+	list-style-type: none;
+	padding: 30px 0;
+}
+nav li {
+	display: inline;
+	padding: 0 50px;
+}
+section {
+	background-repeat: repeat;
+}
+h2 {
+	text-align: center;
+	font-family: Latolight;
+}
+/*---------- SECCION CONTACTANOS ----------*/
+#contactanos {
+	padding: 70px 150px;
+	background-image: url("../img/shoes_!.jpg");
+	background-size: 62%;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+.contc {
+	font-size: 34px;
+	padding-bottom: 40px;
+}
+input {
+	width: 95%;
+	margin-bottom: 15px;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-size: 7%;
+	background-position: 5px;
+	padding: 10px;
+}
+::-webkit-input-placeholder {
+	padding: 0 30px;
+	font-size: 15px;
+}
+.nombre {
+	background-image: url("../img/iconos/user.png");
+}
+.email {
+	background-image: url("../img/iconos/new-mail.png");
+}
+#mensaje {
+	width: 95%;
+	height: 120px;
+	padding: 10px;
+	background: transparent;
+	background-image: url("../img/iconos/pencil.png");
+	background-repeat: no-repeat;
+	background-size: 7%;
+}
+.enviar {
+	padding: 20px 0;
+	background: #061E40;
+	margin-top: 15px;
+	border-radius: 5px;
+	border: 1px solid #061E40;
+	color: white;
+	font-size: 18px;
+}
+/*---------- PIE DE PAGINA ----------*/
+footer {
+	background: #061E40;
+	padding: 20px 40px;
+}

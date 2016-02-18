@@ -1,0 +1,83 @@
+h2 {
+	padding-bottom: 20px;
+}
+section {
+	background-image: url("../img/cubes.png");
+}
+/*---------- SECCIION NOSOTROS ----------*/
+#nosotros {
+	background-image: url("../img/dance_7.jpg");
+	background-size: 150%;
+	background-position: 0px -125px;
+}
+.txt {
+	background: black;
+	opacity: 0.6;
+	padding: 40px 40px 50px;
+	width: 550px;
+	margin: 100px 200px;
+}
+/*---------- SECCION PILAR ----------*/
+#pilar {
+	padding: 80px 0;
+}
+h3 {
+	border-bottom: 1px solid;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+.pilar {
+	width: 240px;
+	margin: 0 35px;
+}
+/*---------- SECCION INSTRUCTORES ----------*/
+h1 {
+	margin-bottom: 50px;
+}
+#instructores {
+	padding: 60px;
+}
+.inst {
+	background: white;
+}
+.profesores {
+	padding-right : 50px;
+}
+h5 {
+	font-size: 40px;
+	padding: 100px 0;
+}
+.profesores>div {
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 200px;
+	width: 250px;
+}
+.foto1 {
+	background-image: url("../img/profesor_4.jpg");
+}
+.foto2 {
+	background-image: url("../img/profesor_14.jpg");
+}
+.foto3 {
+	background-image: url("../img/profesor_1.jpg");
+}
+.foto4 {
+	background-image: url("../img/profesor_10.jpg");
+}
+.foto5 {
+	background-image: url("../img/profesor_11.jpg");
+}
+.foto6 {
+	background-image: url("../img/profesor_12.jpg");
+}
+.foto7 {
+	background-image: url("../img/profesor_9.jpg");
+}
+.foto8 {
+	background-image: url("../img/profesor_15.jpg");
+}
+.uno {
+	margin-top: 90px;
+	padding-bottom: 50px;
+}
