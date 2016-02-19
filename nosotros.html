@@ -14,7 +14,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
-					<h1 class="text-blue text-center">ESCUELA DE DANZA</h1>
+					<a href="index.html"><h1 class="text-blue text-center">ESCUELA DE DANZA</h1></a>
 				</div>
 			</div>
 			<div class="row">
@@ -126,16 +126,25 @@
 	<section id="contactanos">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-6">
+				<div class="col-8">
 					<h2 class="text-blue contc">Contáctanos</h2>
 					<form>
-						<input type="text" placeholder="Nombre" name="nombre" class="nombre" />
+						<fieldset>
+							<img src="img/iconos/user.png">
+							<input type="text" placeholder="Nombre" name="nombre" class="inputWithImge" />
+						</fieldset>
 						<br>
-						<input type="email" placeholder="Email" name="email" class="email" />
+						<fieldset>
+							<img src="img/iconos/new-mail.png">
+							<input type="email" placeholder="Email" name="email" class="inputWithImge" />
+						</fieldset>
 						<br>
-						<textarea id="mensaje" placeholder="Mensaje" class="mensaje"></textarea>
+						<fieldset>
+							<img class="mensaje" src="img/iconos/pencil.png">
+							<textarea id="mensaje" placeholder="Mensaje" class="inputWithImge"></textarea>
+						</fieldset>
 						<br>
-						<input type="submit" value="ENVIAR" class="enviar">
+						<input type="submit" value="ENVIAR" class="enviar text-white">
 					</form>
 				</div>
 			</div>

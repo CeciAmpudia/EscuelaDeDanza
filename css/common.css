@@ -32,43 +32,41 @@ h2 {
 .contc {
 	font-size: 34px;
 	padding-bottom: 40px;
+	text-align: left;
+}
+fieldset {
+	width: 80%;
+	padding: 2px;
 }
 input {
-	width: 95%;
-	margin-bottom: 15px;
+	width: 90%;
+	padding: 5px;
+	/*margin-bottom: 15px;*/
 	background: transparent;
-	background-repeat: no-repeat;
-	background-size: 7%;
-	background-position: 5px;
-	padding: 10px;
+	border: transparent;
 }
 ::-webkit-input-placeholder {
-	padding: 0 30px;
+	/*padding-left: 0px 30px;*/
 	font-size: 15px;
 }
-.nombre {
-	background-image: url("../img/iconos/user.png");
+form img {
+	width: 30px;
+	vertical-align: middle;
 }
-.email {
-	background-image: url("../img/iconos/new-mail.png");
+.mensaje {
+	vertical-align: top;
 }
 #mensaje {
-	width: 95%;
-	height: 120px;
-	padding: 10px;
-	background: transparent;
-	background-image: url("../img/iconos/pencil.png");
-	background-repeat: no-repeat;
-	background-size: 7%;
+	width: 90%;
+	height: 130px;
+	border: transparent;
 }
 .enviar {
-	padding: 20px 0;
+	width: 80%;
 	background: #061E40;
-	margin-top: 15px;
-	border-radius: 5px;
-	border: 1px solid #061E40;
-	color: white;
-	font-size: 18px;
+	border-radius: 4px;
+	padding: 15px;
+	font-size: 20px;
 }
 /*---------- PIE DE PAGINA ----------*/
 footer {
